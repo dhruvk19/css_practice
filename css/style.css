@@ -19,6 +19,7 @@ p {
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
+
 }
 img {
     width: 250px;
@@ -32,4 +33,58 @@ img {
 div {
     height: 125px;
     padding: 20px;
+    border: solid 3px #FFFFFF;
 }
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+}
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: solid 5px #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+}
+
+div.blue h2, div.blue p {
+    color: #C4C4C4;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+div.yellow h2, div.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+
+
+
+
+
+
